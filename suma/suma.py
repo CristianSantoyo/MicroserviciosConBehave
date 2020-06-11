@@ -11,12 +11,15 @@ app = Flask(__name__)
 cors=CORS(app)
 
 @app.route('/api/suma', methods=['POST'])
-#@cross_origin(origins='http://*:3030/*', support_credentials=True)
 def suma():    
     n1 = int(request.args.get('n1'))
     n2 = int(request.args.get('n2'))
-    result = n1+n2
+    result = sumar(n1,n2)
     return str(result)
+
+def sumar(a, b):
+    return a+b
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='3030')
