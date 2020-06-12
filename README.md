@@ -14,23 +14,23 @@ La aplicación de microservicios está realizada en FLASK y el entorno de prueba
 
 * Prueba y resultados para la operación suma:
 <div align='center'>
-    <img  src='img/behaveSuma.png'>    
+    <img  src='./img/behaveSuma.PNG'>    
 </div>
     
 * Prueba y resultados para la operación resta:
  <div align='center'>
-    <img  src='img/behaveResta.png'>    
+    <img  src='./img/behaveResta.PNG'>    
 </div>   
 * Prueba y resultados para la operación multiplicación:
 <div align='center'>
-    <img  src='img/behaveMultiplicacion.png'>    
+    <img  src='./img/behaveMultiplicacion.PNG'>    
 </div>
 * Prueba y resultados para la operación división:
 <div align='center'>
-    <img  src='img/behaveDivision.png'>    
+    <img  src='./img/behaveDivision.PNG'>    
 </div>
 
 ** Prueba para el orquestador, agrupando todos los microservicios
 <div align='center'>
-    <img  src='img/behaveOrquestador.png'>    
+    <img  src='./img/behaveOrquestador.PNG'>
 </div>
